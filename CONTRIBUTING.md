@@ -1,0 +1,1 @@
+curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: application/x-www-form-urlencoded' -d 'grant_type=client_credentials&client_id=778ef197d759442fa142ba7d9be0575d&client_secret=p8e-f3NQgA3JI8IKevYbkalxOixJIJ9O83MH&scope=AdobeID,openid'
