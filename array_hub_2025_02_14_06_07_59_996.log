@@ -1,0 +1,1064 @@
+2025-02-14 06:08:00.049 10933-2 D/AppHubApplicationDelegate: attachBaseContext()
+2025-02-14 06:08:00.049 10933-2 I/RFixPatch: #validate skip, patch config is empty
+2025-02-14 06:08:00.050 10933-2 I/RFixPatch: #scheduleClean
+2025-02-14 06:08:00.054 10933-2 I/RFixPatch: #init, current config = null
+2025-02-14 06:08:00.054 10933-2 I/RFixService: #init, current process = Main, Pid = 10933
+2025-02-14 06:08:00.055 10933-2 I/RFixService: #handlePatchApplied, status = skip
+2025-02-14 06:08:00.055 10933-162 I/RFixData: patch config removed
+2025-02-14 06:08:00.055 10933-2 I/AppLifeCycleProviderImpl: init, process = com.applovin.array.apphub.tmobile
+2025-02-14 06:08:00.055 10933-2 I/AppHubApplicationDelegate: ==================================================
+2025-02-14 06:08:00.055 10933-2 I/AppHubApplicationDelegate: 	starting AppHub
+2025-02-14 06:08:00.056 10933-2 I/AppHubApplicationDelegate: 	version name: 1.21.1
+2025-02-14 06:08:00.058 10933-2 I/AppHubApplicationDelegate: 	version code: 1021001
+2025-02-14 06:08:00.058 10933-2 I/AppHubApplicationDelegate: 	partner: tmobile
+2025-02-14 06:08:00.058 10933-2 I/AppHubApplicationDelegate: 	debug: false
+2025-02-14 06:08:00.058 10933-2 I/AppHubApplicationDelegate: 	environment: prod
+2025-02-14 06:08:00.058 10933-2 I/AppHubApplicationDelegate: 	process: com.applovin.array.apphub.tmobile
+2025-02-14 06:08:00.058 10933-2 I/AppHubApplicationDelegate: 	application id: com.applovin.array.apphub.tmobile
+2025-02-14 06:08:00.058 10933-2 I/AppHubApplicationDelegate: 	build info: TUFDSElORTpsdWtlemh1I1RJTUU6MTczMTMzMzk3NDY3MiNOQU1FOmx1a2V6aHUjQ09NTUlUOmRh
+Njg2MTE0I0JSQU5DSDpyZWxlYXNlL3YxLjIxLjEtdG1vYmlsZSM=
+
+2025-02-14 06:08:00.058 10933-2 I/AppHubApplicationDelegate: ==================================================
+2025-02-14 06:08:00.186 10933-2 D/ArrayBuildConfig: init() called with: arrayConfig = [Bundle[{needProvideInstallAppList=false, VERSION_CODE=1021001, VERSION_NAME=1.21.1, SDK_CONFIGS=, deliveryDownloader=TM, isBootCompletedBroadcasterDisable=false, isSupportSelfTermination=false, isOSUpdateEnable=false, isOptOutEnable=false, showSilentPreloadNotification=false, isPersonalData=true, isInstallProgressIndeterminate=false, isSupportIndiaNode=false, isMultipleMode=false, isGameWidgetEnable=false, isImmersiveScreen=true, OEM=tmobile, initDeliveryRetryCount=2, isOptInEnable=false, isEnableIas=false, deliveryInstaller=TM, isSequenceDelivery=false, isShowCategoryOfOOBEFirstPage=false, ENVIRONMENT=prod}]]
+2025-02-14 06:08:00.204 10933-2 D/AndroidDeviceUtil: isDeviceEncrypted() called with: storageEncryptionStatus = [5]
+2025-02-14 06:08:00.205 10933-2 D/AndroidDeviceUtil: isUserUnlocked() called with: isUserUnlocked = [true]
+2025-02-14 06:08:00.205 10933-2 D/AppHubApplicationDelegate: Application boot onCreate() called isDeviceEncrypted:true，isUserUnlocked：true
+2025-02-14 06:08:00.254 10933-2 D/AndroidSystemProperties: getTestLocalString() called:
+2025-02-14 06:08:00.256 10933-2 D/AndroidDeviceUtil: isDeviceEncrypted() called with: storageEncryptionStatus = [5]
+2025-02-14 06:08:00.257 10933-194 D/DeviceDataCollector: fetchDefaultUserAgent() called
+2025-02-14 06:08:00.277 10933-2 D/AppHub: getConfigInfo: {"appCategoryQuerySettings":{"batchSize":50,"intervalForNotFound":604800,"intervalForUndefined":600},"appManagerSettings":{"replaceDeliveryCoordinator":false},"apphubWebOfflineSettings":{"enable":false,"resourceType":"app_hub","resourceUrl":"https://apphub-web-ui.al-array.com/offline/web-offline-package-info.json","updateEnable":false,"updateInterval":3600},"applovinSdkKey":"","attributionSettings":{},"checkAppUpdateInterval":300,"checkAppUpdatesBatchSize":10,"cleanUpSettings":{"notificationInterval":1080},"clientInfo":{"allowedOverMetered":false,"allowedOverMobileData":false,"allowedOverRoaming":false,"forceUpdate":false,"latestVersionCode":0,"latestVersionName":"0.0.0"},"developerAppUpdateSettings":{"enable":true},"directDownloadWebOfflineSettings":{"enable":false,"resourceType":"direct_download","resourceUrl":"https://apphub-web-ui.al-array.com/offline/directdownload/web-offline-package-info.json","updateEnable":true,"updateInterval":3600},"extra":{"tmobile_history_call_max_count":"900","tmobile_temp_id_cache_seconds":"150"},"featureControl":[{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"oobe","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"osUpdate","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"periodicRecommendation","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"cleanUp","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":true,"intervals":[],"maxFrequency":0,"name":"directDownload","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadBrand":"app_name\u003dAppHub#branded\u003dfalse","directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":5,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":800,"retryQueryTempIdMaxCount":2,"waitDuration":0,"warmUpWebView":true,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":true,"intervals":[],"maxFrequency":0,"name":"ddAdSpace","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"silentPreload","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"silentInstall","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"dynamicAppInstall","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"gameSpotlight","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"categoryPopup","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":true,"intervals":[],"maxFrequency":0,"name":"installsCompletionPopup","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"systemPropertiesAttribution","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"wakeUpIntent","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":false,"enable":false,"intervals":[],"maxFrequency":0,"name":"notificationAds","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":0},{"delay":true,"enable":false,"intervals":[86400,86400,86400],"maxFrequency":3,"name":"oobeReminder","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":259200,"uiType":"default"}],"firebasePerfConfig":{"blacklist":[],"enabled":true},"globalCooldownSettings":{"coolDownFeatures":[],"coolDownSeconds":1296000},"lateOobeSettings":{"uiType":"default"},"lateOsUpdateSettings":{"uiType":"notification"},"localeTexts":[{"identifier":"OOBEUI003","text":"Privacy Policy"},{"identifier":"OOBEUI004","text":"Terms of Service"},{"identifier":"OOBEUI008","text":"Exit device setup?"},{"identifier":"OOBEUI009","text":"Your device setup is not yet complete."},{"identifier":"OOBEUI010","text":"Cancel"},{"identifier":"OOBEUI011","text":"Exit"},{"identifier":"OOBEUI012","text":"Loading"},{"identifier":"OOBEUI013","text":"Something went wrong..."},{"identifier":"OOBEUI014","text":"Please try again."},{"identifier":"OOBEUI015","text":"Retry"},{"identifier":"OOBEUI016","text":"Skip for now"},{"identifier":"OOBEUI017","text":"Which apps do you usually use?"},{"identifier":"OOBEUI021","text":"Which games do you like playing?"},{"identifier":"OOBEUI036","text":"Open Source"},{"identifier":"OOBEUI041","text":"Personal Data"},{"identifier":"OOBEUI042","text":"For submitting a request for deletion or receipt of your data, please enter your email."},{"identifier":"OOBEUI043","text":"Email"},{"identifier":"OOBEUI044","text":"your@email.here"},{"identifier":"OOBEUI045","text":"Email confirmation"},{"identifier":"OOBEUI046","text":"By submitting your request, you hereby declare that you are the legal owner of the device, and the email address stated above. Your request is subject to our review, and will be processed only if we find it eligible for processing under the terms of General Data Protection Regulation."},{"identifier":"OOBEUI047","text":"It may take up to 30 days to collect data for receipt request and we will send a zip file to the email address stated above. Remember to check your spam inbox if you can\u0027t see it."},{"identifier":"OOBEUI048","text":"Request access"},{"identifier":"OOBEUI049","text":"Request deletion"},{"identifier":"OOBEUI050","text":"Request success!"},{"identifier":"AppCategoy001","text":"Art \u0026 Design"},{"identifier":"AppCategoy002","text":"Games"},{"identifier":"AppCategoy003","text":"Movies"},{"identifier":"AppCategoy004","text":"Music"},{"identifier":"AppCategoy005","text":"News"},{"identifier":"AppCategoy006","text":"Photography"},{"identifier":"AppCategoy007","text":"Shopping"},{"identifier":"AppCategoy008","text":"Social Media"},{"identifier":"AppCategoy009","text":"Travel"},{"identifier":"AppCategoy010","text":"Business"},{"identifier":"AppCategoy011","text":"Entertainment"},{"identifier":"AppCategoy012","text":"Utility"},{"identifier":"AppCategoy013","text":"Wellness"},{"identifier":"GameCategory001","text":"Adventure"},{"identifier":"GameCategory002","text":"Arcade"},{"identifier":"GameCategory003","text":"Puzzle"},{"identifier":"GameCategory004","text":"Racing"},{"identifier":"GameCategory005","text":"Sports"},{"identifier":"GameCategory006","text":"Trivia"},{"identifier":"GameCategory007","text":"Board"},{"identifier":"GameCategory008","text":"Action"},{"identifier":"GameCategory009","text":"Simulation"},{"identifier":"GameCategory010","text":"Role Playing"},{"identifier":"Notif001","text":"Complete Device Update"},{"identifier":"Notif002","text":"Get new app recommendations tailored for you"},{"identifier":"Notif003","text":"Complete Device Setup"},{"identifier":"Notif004","text":"Continue"},{"identifier":"Notif005","text":"Installing..."},{"identifier":"Notif006","text":"Cancel"},{"identifier":"Notif007","text":"Cancel download?"},{"identifier":"Notif008","text":"You will lose all unfinished progress."},{"identifier":"Notif009","text":"Yes"},{"identifier":"Notif010","text":"No"},{"identifier":"Notif011","text":"This app was already downloaded."},{"identifier":"Notif012","text":"Tap here to launch!"},{"identifier":"Notif013","text":"Unable to install"},{"identifier":"Notif014","text":"Not enough storage"},{"identifier":"Notif015","text":"1 app failed to install"},{"identifier":"Notif016","text":"%s apps failed to install"},{"identifier":"Notif017","text":"Installation paused. Waiting for Wi-Fi."},{"identifier":"Notif018","text":"%s failed to install"},{"identifier":"Notif019","text":"Installation paused. Waiting for network connection."},{"identifier":"Notif023","text":"Tap to get started"},{"identifier":"Notif025","text":"Enjoying your new apps!"},{"identifier":"Notif026","text":"new games \u0026 apps are ready"},{"identifier":"DDUI001","text":"Install App"},{"identifier":"DDUI002","text":"Offers in-app purchases"},{"identifier":"DDUI003","text":"Show more"},{"identifier":"DDUI004","text":"Show less"},{"identifier":"DDUI005","text":"Version"},{"identifier":"DDUI006","text":"Download size"},{"identifier":"DDUI007","text":"Contact"},{"identifier":"DDUI008","text":"Install"},{"identifier":"DDUI009","text":"Download in progress"},{"identifier":"DDUI010","text":"Check the notification for progress"},{"identifier":"DDUI012","text":"Back"},{"identifier":"DDUI019","text":"Do Not Sell My Personal Information"},{"identifier":"CLEANUPUI001","text":"Time to free space on your phone"},{"identifier":"CLEANUPUI002","text":"Clean unused apps to speed up your phone"},{"identifier":"PR001","text":"Discover new apps!"}],"notificationAdPollInterval":43200,"notificationControl":[{"delay":false,"enable":false,"intervals":[],"maxFrequency":10000,"name":"installProgress","repeatType":"none","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":1,"uiType":"default"},{"delay":false,"enable":false,"intervals":[86400,86400],"maxFrequency":2,"name":"gameSpotlightReminder","repeatType":"none","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":172800,"uiType":"default"},{"delay":false,"enable":false,"intervals":[86400,86400,86400],"maxFrequency":3,"name":"oobeReminder","repeatType":"none","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":259200,"uiType":"default"},{"delay":false,"enable":false,"intervals":[],"maxFrequency":1,"name":"osUpdateOptIn","repeatType":"none","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":86400,"uiType":"default"},{"delay":false,"enable":false,"intervals":[86400,86400,86400],"maxFrequency":3,"name":"osUpdateReminder","repeatType":"none","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":259200,"uiType":"default"},{"delay":false,"enable":true,"intervals":[],"maxFrequency":20,"name":"installSuccess","repeatType":"none","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":1,"uiType":"default"},{"delay":false,"enable":true,"intervals":[],"maxFrequency":10000,"name":"unableToInstall","repeatType":"none","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":1,"uiType":"default"},{"delay":false,"enable":true,"intervals":[],"maxFrequency":10000,"name":"outOfStorage","repeatType":"none","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":1,"uiType":"default"},{"delay":false,"enable":false,"intervals":[],"maxFrequency":10000,"name":"appOpenReminder","repeatType":"none","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":1,"uiType":"default"},{"delay":false,"enable":true,"intervals":[],"maxFrequency":10000,"name":"appOpenReminderV2","repeatType":"none","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":3600,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":1,"uiType":"default"},{"delay":false,"enable":false,"intervals":[],"maxFrequency":10000,"name":"groupedAppOpenReminder","repeatType":"none","settings":{"appCoolDown":0,"checkInterval":0,"ddWarmUpAppDataEnabled":false,"ddWarmUpEnabled":false,"ddWarmUpLoadWebResEnabled":false,"ddWarmUpWhenPageExitEnabled":false,"directDownloadVersion":"v2","disableBackPressedHandler":false,"downloadApiInvokeTimeout":4000,"duration":0,"existDuration":0,"getEnabledFeaturesTimeout":0,"initialDelaySeconds":0,"intervalSeconds":0,"isDisableInstallFinishLogic":false,"navBarDisable":false,"persistent":false,"retryQueryTempIdFreezingTime":1000,"retryQueryTempIdMaxCount":0,"waitDuration":0,"warmUpWebView":false,"webFramework":"reactjs","webViewPreloadUrl":"about:blank"},"timePeriod":1,"uiType":"default"}],"oobeOsUpdateSettings":{"maxFrequency":1,"timePeriod":7776000},"periodicRecommendationSettings":{"intervalOptions":[{"initial":false,"interval":336,"title":"Every 2 weeks"},{"initial":true,"interval":720,"title":"Every month"},{"initial":false,"interval":2160,"title":"Every 3 months"},{"initial":false,"interval":4320,"title":"Every 6 months"},{"initial":false,"interval":-1,"title":"Never"}],"localDisplayTime":72000},"pollInterval":3600,"recommendationSettings":{"queryAllLocalApps":true},"secureSettings":{"disableSecureBroadcast":false},"selfUpdateSettings":{"batchSize":0,"enable":true,"triggerTimeRange":{"offsetEnd":21600,"offsetStart":0}},"serverTimestamp":1739536041964,"silkSettings":{"enable":false,"fastlane":false},"theme":{"id":"tmobile","items":[{"key":"main_color","value":"#4287F6"},{"key":"direct_download_loading_ui","value":"style_b"}]},"thirdPartyAppUpdateSettings":{"batchSize":10,"enable":true,"serverBasedInstalledAppsSettings":{"enable":true,"validSeconds":864000},"triggerCondition":{"minimumBattery":20,"requireCharging":true,"requireScreenOff":false,"requireWifi":true},"triggerTimeRange":{"offsetEnd":21600,"offsetStart":0}},"tracker":{"appEventsEndpoint":"https://api.tracking.al-array.com/array/tracker/1.0/app-events","enable":true,"eventsEndpoint":"https://api.tracking.al-array.com/array/tracker/1.0/events","notAllowedEvents":[]},"webTemplate":{"baseUrl":"https://apphub.al-array.com/tmobile","directDownload":"https://directdownload.al-array.com/direct-download/1.0/#/direct-download-app-info","openSource":"https://apphub.al-array.com/tmobile/1.0/#/open-source","personalData":"https://apphub.al-array.com/tmobile/1.0/#/privacy-choices","privacyPolicy":"https://apphub.al-array.com/tmobile/1.0/#/privacy","setupAppUpdate":"https://apphub.al-array.com/tmobile/1.0/#/setup-app-update","setupDataCollection":"https://apphub.al-array.com/tmobile/1.0/#/setup-data-collection","terms":"https://apphub.al-array.com/tmobile/1.0/#/terms","version":"1.0"},"webViewSettings":{"enableBackButtonInThirdPartyPage":true,"loadingDialogCancelable":true,"loadingDialogTimeoutSeconds":10,"pageFailedRegulation":"[]","pageFinishedValidation":false,"useNewLoadingView":true},"widgetRecommendationSettings":{"myGamesRefreshInterval":3600,"recommendationRefreshInterval":3600,"recommendationRetrievalInterval":21600,"redirectToGameHub":true}}
+2025-02-14 06:08:00.346 10933-2 D/ConfigManager: onUpdateControlConfig() config.extra: tmobileTempIdCacheTime = [150000]
+2025-02-14 06:08:00.347 10933-2 D/ConfigManager: onUpdateControlConfig() config.extra: tmobile_history_call_max_count = [900]
+2025-02-14 06:08:00.360 10933-199 I/RFixBundleInfo: notifyBundleUpdate
+2025-02-14 06:08:00.434 10933-2 D/DefaultExecutorsProvider:  : provideCommonCachedExecutor() called maximumPoolSize:17
+2025-02-14 06:08:00.439 10933-2 D/AppHub: TrafficManager: recoverLocalTraffic() called
+2025-02-14 06:08:00.451 10933-2 D/PluginManager: registerPlugin() called with: cl = [com.applovin.array.plugin.IAppManagerPlugin], object = [com.applovin.oem.am.plugin.AppManagerPlugin@f538c8b]
+2025-02-14 06:08:00.459 10933-2 D/OOBEController: init() Process.myUid():10433,originDeviceType:new_device
+2025-02-14 06:08:00.461 10933-2 D/AndroidSystemProperties: getTestBuildVersion >>
+2025-02-14 06:08:00.462 10933-2 D/AppHub: OOBEController : initOOBELaunchMode() originDeviceType:new_device,lastBuildVersion:17710-d1a62,getSystemBuildVersion17710-d1a62
+2025-02-14 06:08:00.463 10933-2 D/AndroidSystemProperties: getTestBuildVersion >>
+2025-02-14 06:08:00.464 10933-2 D/AndroidSystemProperties: getTestBuildVersion >>
+2025-02-14 06:08:00.464 10933-2 D/LocalConfigManager: putString() called with: key = [oobe_launch_mode_17710-d1a62], value = [new_device_oobe]
+2025-02-14 06:08:00.464 10933-2 D/TrackManager: track() called with: endpoint = [https://api.tracking.al-array.com/array/tracker/1.0/events], eventName = [update_launch_mode], parameters = [{mode=new_device_oobe}]
+2025-02-14 06:08:00.469 10933-2 D/: getValue: false
+2025-02-14 06:08:00.470 10933-2 D/TrackManager: track >> trafficContext: for eventName=update_launch_mode, true, false
+2025-02-14 06:08:00.470 10933-2 D/OOBEController: init() called:new_device,oobeLaunchMode:new_device_oobe
+2025-02-14 06:08:00.471 10933-2 D/LocalConfigManager: putBoolean() called with: key = [os_update_smr_mode_2024-12-01], value = [false]
+2025-02-14 06:08:00.471 10933-2 D/OOBEController: initOOBEController() originDeviceType:new_device,oobeLaunchMode:new_device_oobe,lastBuildVersion:17710-d1a62,oobeTriggerTimes:0,oobeOptInViewTimestamp:0
+2025-02-14 06:08:00.479 10933-2 W/DeliveryPrerequisiteChecker: checkPrerequisites() missingPermissionsStr:android.permission.DOWNLOAD_WITHOUT_NOTIFICATION,android.permission.INSTALL_PACKAGES,android.permission.DELETE_PACKAGES,android.permission.PACKAGE_USAGE_STATS,android.permission.WRITE_SECURE_SETTINGS,android.permission.SYSTEM_ALERT_WINDOW,android.permission.PACKAGE_USAGE_STATS,android.permission.GET_TASKS
+2025-02-14 06:08:00.479 10933-2 D/: getValue: false
+2025-02-14 06:08:00.480 10933-2 D/: getValue: 1738046856685
+2025-02-14 06:08:00.480 10933-2 D/NotificationAdsManager: syncLocalNotificationAds() called
+2025-02-14 06:08:00.481 10933-2 D/ApplicationInitializer: initSelfUpdateScheduleJob() called:999
+2025-02-14 06:08:00.488 10933-2 D/ApplicationInitializerExtension: call scheduleExtraTask 002.
+2025-02-14 06:08:00.495 10933-2 D/ScheduleAppUpdateManager: call scheduleAppUpdate
+2025-02-14 06:08:00.495 10933-2 D/DeliveryAppResumer: registerAppUpdateResumeProvider >> call
+2025-02-14 06:08:00.496 10933-2 D/ScheduleAppUpdateManager: already scheduled app update task.
+2025-02-14 06:08:00.497 10933-2 D/AndroidSystemProperties: getTestBuildVersion >>
+2025-02-14 06:08:00.497 10933-206 D/AppHub: ApplicationInitializer : onAvailable() called with: network = [100], isMetered = true
+2025-02-14 06:08:00.498 10933-206 D/AppHub: ApplicationInitializer : onAvailable() called with: retrieveNetworkType = [5g]
+2025-02-14 06:08:00.498 10933-206 D/AppStartManager: initAppConfig() called isFistInit:false
+2025-02-14 06:08:00.499 10933-2 D/TrackManager: track() called with: endpoint = [https://api.tracking.al-array.com/array/tracker/1.0/events], eventName = [array_launched], parameters = [{launch_mode=new_device_oobe}]
+2025-02-14 06:08:00.500 10933-2 D/: getValue: false
+2025-02-14 06:08:00.500 10933-2 D/TrackManager: track >> trafficContext: for eventName=array_launched, true, false
+2025-02-14 06:08:00.501 10933-2 D/ApplicationInitializerExtension: call trackUiaEvent 002.
+2025-02-14 06:08:00.501 10933-2 D/AppActiveMonitor: startMonitorAppHubActive() called
+2025-02-14 06:08:00.501 10933-2 I/ScreenBroadcastReceiver: ScreenBroadcastReceiver registerListener
+2025-02-14 06:08:00.504 10933-2 D/OfflineManager: scheduleOfflineCheckTask() resType = app_hub settings is off
+2025-02-14 06:08:00.505 10933-2 D/: getValue: 1739543705387
+2025-02-14 06:08:00.505 10933-2 D/OfflineManager: The last task has not been executed yet. resourceType=direct_download
+2025-02-14 06:08:00.505 10933-2 D/AppHub: GroupedOpenAppsNotifyManager triggerSendNotification start
+2025-02-14 06:08:00.506 10933-2 D/: getValue: false
+2025-02-14 06:08:00.506 10933-2 D/AppHub: GroupedOpenAppsNotifyManagercheckEnable() false for isOobeCompleted false
+2025-02-14 06:08:00.507 10933-206 D/AppStartManager: startRetryInitConfigTask() called with: listener = [com.applovin.oem.am.ApplicationInitializer$2$1@369f498]
+2025-02-14 06:08:00.507 10933-206 D/TrackManager: track() called with: endpoint = [https://api.tracking.al-array.com/array/tracker/1.0/events], eventName = [app_config_init_start], parameters = [null]
+2025-02-14 06:08:00.508 10933-206 D/: getValue: false
+2025-02-14 06:08:00.508 10933-206 D/TrackManager: track >> trafficContext: for eventName=app_config_init_start, true, false
+2025-02-14 06:08:00.508 10933-206 D/ControlConfigManager: appInitCompleted() isInitCompleted:false,isInitConfigRequesting:false
+2025-02-14 06:08:00.509 10933-206 D/ControlConfigManager: initConfigsFromServer() called with: initCallback = [com.applovin.oem.am.AppStartManager$2@fa4d8d6]
+2025-02-14 06:08:00.509 10933-206 D/ControlConfigManager: fetchConfigsFromServer() called with: fetchConfigCallback = [com.applovin.oem.am.control.config.ControlConfigManager$2@ec5b757]
+2025-02-14 06:08:00.510 10933-2 D/ApplicationInitializer: initialize() Process.myUid():10433
+2025-02-14 06:08:00.510 10933-2 D/PluginManager: registerPlugin() called with: cl = [com.applovin.array.plugin.IDiscoveryPlugin], object = [com.applovin.oem.discovery.plugin.DiscoveryPlugin@edac62]
+2025-02-14 06:08:00.510 10933-2 I/DiscoveryContext: =====Initializing context=====
+2025-02-14 06:08:00.511 10933-2 D/: getValue: false
+2025-02-14 06:08:00.519 10933-2 D/: getValue: 1738046856685
+2025-02-14 06:08:00.520 10933-2 D/OOBEManager: tryMonitorInHomeScreen() called
+2025-02-14 06:08:00.520 10933-2 D/: getValue: false
+2025-02-14 06:08:00.521 10933-2 D/AppHubApplicationDelegate: apphub_time onCreate() called total:305
+2025-02-14 06:08:00.521 10933-210 D/AppLovinRandomIdRepository: getApplovinRandomId: 6pAIIWhy4QNCV4tJ|1739542080508|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:00.522 10933-210 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:00.522 10933-210 D/: getValue: false
+2025-02-14 06:08:00.524 10933-210 D/: getValue: 
+2025-02-14 06:08:00.524 10933-210 D/: getValue: false
+2025-02-14 06:08:00.524 10933-223 D/AppLovinRandomIdRepository: getApplovinRandomId: ohBbdJu8rr6OovHW|1739542080509|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:00.525 10933-223 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:00.525 10933-223 D/: getValue: false
+2025-02-14 06:08:00.525 10933-223 D/: getValue: 
+2025-02-14 06:08:00.526 10933-223 D/: getValue: false
+2025-02-14 06:08:00.526 10933-229 D/AppLovinRandomIdRepository: getApplovinRandomId: R5HyUfACt6NwSyBk|1739542080511|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:00.526 10933-229 D/: getValue: false
+2025-02-14 06:08:00.526 10933-229 D/AndroidSystemProperties: getTestLocalString() called:
+2025-02-14 06:08:00.527 10933-206 D/DeliveryAppResumer: checkResumeDelivery() called ,isFirstResumeTask:true,isWifi:false,activeDeliveryTracker.isActive:false
+2025-02-14 06:08:00.527 10933-206 D/ActiveDeliveryTracker: isDelivering() isDelivering:false
+2025-02-14 06:08:00.528 10933-206 D/DeliveryAppResumer: startResumeDelivery() called with: activeDeliveryTracker.isDelivering = [false]
+2025-02-14 06:08:00.529 10933-206 D/ActiveDeliveryTracker: isDelivering() isDelivering:false
+2025-02-14 06:08:00.529 10933-206 D/ActiveDeliveryTracker: isDelivering() isDelivering:false
+2025-02-14 06:08:00.530 10933-226 D/TMobileAdapterApi: isAdaptEnable() called com.tmobile.pr.adapt:3420099
+2025-02-14 06:08:00.530 10933-226 D/TMobileAdapterApi: try call adapt to get new tempId
+2025-02-14 06:08:00.531 10933-231 D/SelfUpdateChecker: -startCheckSelfUpdateFlow()  : forceSelfUpdate:false,isOOBEStarted:false,isNeedSelfUpdate:false,isAllowMobileNetwork:false,isDeviceWifiNetwork:false
+2025-02-14 06:08:00.531 10933-206 D/AppHub: ApplicationInitializer : The default network changed network: 100
+2025-02-14 06:08:00.532 10933-206 D/AppHub: ApplicationInitializer : The default network changed link network: 100
+2025-02-14 06:08:00.532 10933-226 D/TrackManager: track() called with: endpoint = [https://api.tracking.al-array.com/array/tracker/1.0/events], eventName = [adapt_tempid_start_retrieve], parameters = [{adapt_trace_id=94125f29-2ebc-42c8-b7ae-391b06f724dc}]
+2025-02-14 06:08:00.533 10933-226 D/: getValue: false
+2025-02-14 06:08:00.533 10933-226 D/TrackManager: track >> trafficContext: for eventName=adapt_tempid_start_retrieve, true, false
+2025-02-14 06:08:00.533 10933-234 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:00.534 10933-234 D/: getValue: false
+2025-02-14 06:08:00.534 10933-225 D/AppLovinRandomIdRepository: getApplovinRandomId: TjruJ9ducLn0QVk7|1739542080523|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:00.535 10933-225 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:00.535 10933-225 D/: getValue: false
+2025-02-14 06:08:00.535 10933-225 D/: getValue: 
+2025-02-14 06:08:00.536 10933-225 D/: getValue: false
+2025-02-14 06:08:00.536 10933-229 D/AppLovinRandomIdRepository: getApplovinRandomId: AhdkHqJN1L9zJ6pP|1739542080524|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:00.536 10933-229 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:00.537 10933-229 D/: getValue: false
+2025-02-14 06:08:00.537 10933-229 D/: getValue: 
+2025-02-14 06:08:00.538 10933-229 D/: getValue: false
+2025-02-14 06:08:00.538 10933-228 D/AppLovinRandomIdRepository: getApplovinRandomId: Ztia7VXGHUBUmabh|1739542080525|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:00.539 10933-228 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:00.539 10933-228 D/: getValue: false
+2025-02-14 06:08:00.540 10933-228 D/: getValue: 
+2025-02-14 06:08:00.541 10933-228 D/: getValue: false
+2025-02-14 06:08:00.545 10933-2 D/AndroidDeviceUtil: isDeviceEncrypted() called with: storageEncryptionStatus = [5]
+2025-02-14 06:08:00.545 10933-2 D/AndroidDeviceUtil: isUserUnlocked() called with: isUserUnlocked = [true]
+2025-02-14 06:08:00.546 10933-2 D/AppHubApplicationDelegate: Application boot onCreate() called isDeviceEncrypted:true，isUserUnlocked：true
+2025-02-14 06:08:00.556 10933-235 D/DeliveryAppResumer: getAllResumableApps() called enableDeliveryList:0
+2025-02-14 06:08:00.556 10933-235 D/DeliveryAppResumer: resumeDelivery() called appDeliveryInfoList:0
+2025-02-14 06:08:00.557 10933-235 D/DeliveryAppResumer: resumeOOBEDelivery() called with: appDeliveryList = [0]
+2025-02-14 06:08:00.558 10933-235 D/DeliveryAppResumer: resumeSilentPreloadDelivery() called with: appDeliveryList = [0]
+2025-02-14 06:08:00.558 10933-235 D/DeliveryAppUpdateResumer: startResumeDelivery >> call.
+2025-02-14 06:08:00.558 10933-235 W/DeliveryAppUpdateResumer: startResumeDelivery >> not support.
+2025-02-14 06:08:01.561 10933-238 W/DoctorPark: warning: slow task on main thread! (>1000ms)
+		J.N._V(Native Method)
+		org.chromium.content.browser.BrowserStartupControllerImpl.c(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:136)
+		WV.f6.run(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:229)
+		java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+		java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		org.chromium.base.task.PostTask.d(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:12)
+		org.chromium.android_webview.AwBrowserProcess.j(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:33)
+		com.android.webview.chromium.N.e(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:217)
+		WV.mZ.run(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:11)
+		android.os.Handler.handleCallback(Handler.java:1000)
+		android.os.Handler.dispatchMessage(Handler.java:104)
+		android.os.Looper.loopOnce(Looper.java:242)
+		android.os.Looper.loop(Looper.java:362)
+		android.app.ActivityThread.main(ActivityThread.java:8448)
+		java.lang.reflect.Method.invoke(Native Method)
+		com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+		com.android.internal.os.ZygoteInit.main(ZygoteInit.java:992)
+
+2025-02-14 06:08:01.620 10933-238 D/DoctorPark: "FirebaseSessions_HandlerThread" Id=239 RUNNABLE
+2025-02-14 06:08:01.621 10933-238 D/DoctorPark: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+2025-02-14 06:08:01.621 10933-238 D/DoctorPark: 	at android.os.MessageQueue.next(MessageQueue.java:342)
+2025-02-14 06:08:01.622 10933-238 D/DoctorPark: 	at android.os.Looper.loopOnce(Looper.java:183)
+2025-02-14 06:08:01.622 10933-238 D/DoctorPark: 	at android.os.Looper.loop(Looper.java:362)
+2025-02-14 06:08:01.622 10933-238 D/DoctorPark: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+2025-02-14 06:08:01.623 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.623 10933-238 D/DoctorPark: "DefaultDispatcher-worker-1" Id=221 TIMED_WAITING
+2025-02-14 06:08:01.624 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.624 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+2025-02-14 06:08:01.625 10933-238 D/DoctorPark: 	at m.aiv.run(:com.google.android.gms.dynamite_measurementdynamite@250434029@25.04.34 (190400-0):229)
+2025-02-14 06:08:01.625 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.626 10933-238 D/DoctorPark: "ConnectivityThread" Id=206 RUNNABLE
+2025-02-14 06:08:01.632 10933-238 D/DoctorPark: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+2025-02-14 06:08:01.633 10933-238 D/DoctorPark: 	at android.os.MessageQueue.next(MessageQueue.java:342)
+2025-02-14 06:08:01.633 10933-238 D/DoctorPark: 	at android.os.Looper.loopOnce(Looper.java:183)
+2025-02-14 06:08:01.634 10933-238 D/DoctorPark: 	at android.os.Looper.loop(Looper.java:362)
+2025-02-14 06:08:01.634 10933-238 D/DoctorPark: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+2025-02-14 06:08:01.634 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.634 10933-238 D/DoctorPark: "pool-21-thread-3" Id=235 TIMED_WAITING
+2025-02-14 06:08:01.635 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.637 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.638 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-02-14 06:08:01.638 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-02-14 06:08:01.639 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.639 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.640 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.640 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.640 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.641 10933-238 D/DoctorPark: "pool-16-thread-1" Id=194 WAITING
+2025-02-14 06:08:01.641 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Native Method)
+2025-02-14 06:08:01.641 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:386)
+2025-02-14 06:08:01.642 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:524)
+2025-02-14 06:08:01.642 10933-238 D/DoctorPark: 	at com.android.webview.chromium.N.b(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:69)
+2025-02-14 06:08:01.643 10933-238 D/DoctorPark: 	at com.android.webview.chromium.N.c(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:10)
+2025-02-14 06:08:01.643 10933-238 D/DoctorPark: 	at com.android.webview.chromium.WebViewChromiumFactoryProvider.getStatics(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:8)
+2025-02-14 06:08:01.644 10933-238 D/DoctorPark: 	at android.webkit.WebSettings.getDefaultUserAgent(WebSettings.java:1396)
+2025-02-14 06:08:01.644 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.fetchDefaultUserAgent(DeviceDataCollector.java:14)
+2025-02-14 06:08:01.645 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.a(DeviceDataCollector.java:1)
+2025-02-14 06:08:01.645 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.b.run(R8$$SyntheticClass:3)
+2025-02-14 06:08:01.646 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2025-02-14 06:08:01.647 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.647 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.648 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.648 10933-238 D/DoctorPark: "AsyncTask #1" Id=229 TIMED_WAITING
+2025-02-14 06:08:01.649 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.650 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.650 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.651 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+2025-02-14 06:08:01.652 10933-238 D/DoctorPark: 	at com.google.android.gms.common.BlockingServiceConnection.getServiceWithTimeout(com.google.android.gms:play-services-basement@@18.3.0:15)
+2025-02-14 06:08:01.652 10933-238 D/DoctorPark: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.zzb(com.google.android.gms:play-services-ads-identifier@@17.1.0:89)
+2025-02-14 06:08:01.653 10933-238 D/DoctorPark: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.getAdvertisingIdInfo(com.google.android.gms:play-services-ads-identifier@@17.1.0:17)
+2025-02-14 06:08:01.654 10933-238 D/DoctorPark: 	at com.applovin.array.common.util.GAIDUtil.getGAIDInfo(GAIDUtil.java:39)
+2025-02-14 06:08:01.654 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectAdvertisingInfo(DeviceDataCollector.java:2)
+2025-02-14 06:08:01.659 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectEphemeralDeviceData(DeviceDataCollector.java:227)
+2025-02-14 06:08:01.660 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectDeviceInfo(DeviceDataCollector.java:27)
+2025-02-14 06:08:01.661 10933-238 D/DoctorPark: 	at com.applovin.oem.am.control.config.ControlConfigRequest.<init>(ControlConfigRequest.java:90)
+2025-02-14 06:08:01.661 10933-238 D/DoctorPark: 	at com.applovin.oem.am.control.config.ControlConfigManager$3.run(ControlConfigManager.java:36)
+2025-02-14 06:08:01.662 10933-238 D/DoctorPark: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+2025-02-14 06:08:01.662 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2025-02-14 06:08:01.663 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.663 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.664 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.664 10933-238 D/DoctorPark: "GoogleApiHandler" Id=242 RUNNABLE
+2025-02-14 06:08:01.665 10933-238 D/DoctorPark: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+2025-02-14 06:08:01.665 10933-238 D/DoctorPark: 	at android.os.MessageQueue.next(MessageQueue.java:342)
+2025-02-14 06:08:01.665 10933-238 D/DoctorPark: 	at android.os.Looper.loopOnce(Looper.java:183)
+2025-02-14 06:08:01.666 10933-238 D/DoctorPark: 	at android.os.Looper.loop(Looper.java:362)
+2025-02-14 06:08:01.666 10933-238 D/DoctorPark: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+2025-02-14 06:08:01.667 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.667 10933-238 D/DoctorPark: "AppHub_IO_ThreadPool#2" Id=234 TIMED_WAITING
+2025-02-14 06:08:01.668 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.668 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.669 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.669 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+2025-02-14 06:08:01.669 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.670 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.670 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.671 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.671 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.672 10933-238 D/DoctorPark: "queued-work-looper" Id=163 RUNNABLE
+2025-02-14 06:08:01.672 10933-238 D/DoctorPark: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+2025-02-14 06:08:01.672 10933-238 D/DoctorPark: 	at android.os.MessageQueue.next(MessageQueue.java:342)
+2025-02-14 06:08:01.673 10933-238 D/DoctorPark: 	at android.os.Looper.loopOnce(Looper.java:183)
+2025-02-14 06:08:01.673 10933-238 D/DoctorPark: 	at android.os.Looper.loop(Looper.java:362)
+2025-02-14 06:08:01.674 10933-238 D/DoctorPark: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+2025-02-14 06:08:01.674 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.681 10933-238 D/DoctorPark: "pool-2-thread-1" Id=162 TIMED_WAITING
+2025-02-14 06:08:01.682 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.682 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.682 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.683 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+2025-02-14 06:08:01.683 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.684 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.684 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.684 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.684 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.685 10933-238 D/DoctorPark: "Measurement Worker" Id=197 TIMED_WAITING
+2025-02-14 06:08:01.685 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Native Method)
+2025-02-14 06:08:01.686 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:386)
+2025-02-14 06:08:01.686 10933-238 D/DoctorPark: 	at m.pw.run(:com.google.android.gms.dynamite_measurementdynamite@250434029@25.04.34 (190400-0):71)
+2025-02-14 06:08:01.686 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.687 10933-238 D/DoctorPark: "CrAsyncTask #4" Id=240 TIMED_WAITING
+2025-02-14 06:08:01.687 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.688 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.688 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.688 10933-238 D/DoctorPark: 	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+2025-02-14 06:08:01.689 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.689 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.689 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.692 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.692 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.693 10933-238 D/DoctorPark: "ThreadPoolForeg" Id=243 RUNNABLE
+2025-02-14 06:08:01.693 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.694 10933-238 D/DoctorPark: "ScionFrontendApi" Id=177 TIMED_WAITING
+2025-02-14 06:08:01.694 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.695 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.695 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.695 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+2025-02-14 06:08:01.696 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.696 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.697 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.697 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.698 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.699 10933-238 D/DoctorPark: "WM.task-3" Id=227 WAITING
+2025-02-14 06:08:01.700 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.700 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.700 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.701 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.702 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.702 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.703 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.703 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.704 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.705 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.705 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.706 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.707 10933-238 D/DoctorPark: "binder:10933_2" Id=157 RUNNABLE
+2025-02-14 06:08:01.707 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.708 10933-238 D/DoctorPark: "Crashlytics Exception Handler1" Id=181 WAITING
+2025-02-14 06:08:01.708 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.709 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.709 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.710 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.710 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.710 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.718 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.718 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.719 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.719 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.725 10933-238 D/DoctorPark: 	at m2.y$a$a.a(ExecutorUtils.java:3)
+2025-02-14 06:08:01.725 10933-238 D/DoctorPark: 	at m2.d.run(BackgroundPriorityRunnable.java:6)
+2025-02-14 06:08:01.725 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.726 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.726 10933-238 D/DoctorPark: "Timer-1" Id=216 TIMED_WAITING
+2025-02-14 06:08:01.726 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Native Method)
+2025-02-14 06:08:01.727 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:386)
+2025-02-14 06:08:01.727 10933-238 D/DoctorPark: 	at java.util.TimerThread.mainLoop(Timer.java:560)
+2025-02-14 06:08:01.727 10933-238 D/DoctorPark: 	at java.util.TimerThread.run(Timer.java:513)
+2025-02-14 06:08:01.728 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.728 10933-238 D/DoctorPark: "HeapTaskDaemon" Id=151 WAITING
+2025-02-14 06:08:01.728 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.729 10933-238 D/DoctorPark: "logger_delay_task" Id=160 RUNNABLE
+2025-02-14 06:08:01.729 10933-238 D/DoctorPark: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+2025-02-14 06:08:01.730 10933-238 D/DoctorPark: 	at android.os.MessageQueue.next(MessageQueue.java:342)
+2025-02-14 06:08:01.730 10933-238 D/DoctorPark: 	at android.os.Looper.loopOnce(Looper.java:183)
+2025-02-14 06:08:01.730 10933-238 D/DoctorPark: 	at android.os.Looper.loop(Looper.java:362)
+2025-02-14 06:08:01.731 10933-238 D/DoctorPark: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+2025-02-14 06:08:01.731 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.731 10933-238 D/DoctorPark: "DefaultDispatcher-worker-2" Id=186 TIMED_WAITING
+2025-02-14 06:08:01.732 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.732 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+2025-02-14 06:08:01.732 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:24)
+2025-02-14 06:08:01.732 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:56)
+2025-02-14 06:08:01.732 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:61)
+2025-02-14 06:08:01.733 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:1)
+2025-02-14 06:08:01.733 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.733 10933-238 D/DoctorPark: "AudioPortEventHandler" Id=224 RUNNABLE
+2025-02-14 06:08:01.733 10933-238 D/DoctorPark: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+2025-02-14 06:08:01.733 10933-238 D/DoctorPark: 	at android.os.MessageQueue.next(MessageQueue.java:342)
+2025-02-14 06:08:01.734 10933-238 D/DoctorPark: 	at android.os.Looper.loopOnce(Looper.java:183)
+2025-02-14 06:08:01.734 10933-238 D/DoctorPark: 	at android.os.Looper.loop(Looper.java:362)
+2025-02-14 06:08:01.734 10933-238 D/DoctorPark: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+2025-02-14 06:08:01.735 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.737 10933-238 D/DoctorPark: "main" Id=2 RUNNABLE
+2025-02-14 06:08:01.737 10933-238 D/DoctorPark: 	at J.N._V(Native Method)
+2025-02-14 06:08:01.738 10933-238 D/DoctorPark: 	at org.chromium.content.browser.BrowserStartupControllerImpl.c(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:136)
+2025-02-14 06:08:01.738 10933-238 D/DoctorPark: 	at WV.f6.run(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:229)
+2025-02-14 06:08:01.739 10933-238 D/DoctorPark: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+2025-02-14 06:08:01.739 10933-238 D/DoctorPark: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2025-02-14 06:08:01.740 10933-238 D/DoctorPark: 	at org.chromium.base.task.PostTask.d(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:12)
+2025-02-14 06:08:01.740 10933-238 D/DoctorPark: 	at org.chromium.android_webview.AwBrowserProcess.j(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:33)
+2025-02-14 06:08:01.741 10933-238 D/DoctorPark: 	at com.android.webview.chromium.N.e(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:217)
+2025-02-14 06:08:01.741 10933-238 D/DoctorPark: 	at WV.mZ.run(chromium-TrichromeWebViewGoogle6432.aab-stable-683416533:11)
+2025-02-14 06:08:01.742 10933-238 D/DoctorPark: 	at android.os.Handler.handleCallback(Handler.java:1000)
+2025-02-14 06:08:01.742 10933-238 D/DoctorPark: 	at android.os.Handler.dispatchMessage(Handler.java:104)
+2025-02-14 06:08:01.743 10933-238 D/DoctorPark: 	at android.os.Looper.loopOnce(Looper.java:242)
+2025-02-14 06:08:01.743 10933-238 D/DoctorPark: 	at android.os.Looper.loop(Looper.java:362)
+2025-02-14 06:08:01.744 10933-238 D/DoctorPark: 	at android.app.ActivityThread.main(ActivityThread.java:8448)
+2025-02-14 06:08:01.744 10933-238 D/DoctorPark: 	at java.lang.reflect.Method.invoke(Native Method)
+2025-02-14 06:08:01.745 10933-238 D/DoctorPark: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+2025-02-14 06:08:01.745 10933-238 D/DoctorPark: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:992)
+2025-02-14 06:08:01.746 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.746 10933-238 D/DoctorPark: "Profile Saver" Id=159 RUNNABLE
+2025-02-14 06:08:01.746 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.751 10933-238 D/DoctorPark: "Chrome_ProcessLauncherThread" Id=241 RUNNABLE
+2025-02-14 06:08:01.753 10933-238 D/DoctorPark: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+2025-02-14 06:08:01.753 10933-238 D/DoctorPark: 	at android.os.MessageQueue.next(MessageQueue.java:342)
+2025-02-14 06:08:01.753 10933-238 D/DoctorPark: 	at android.os.Looper.loopOnce(Looper.java:183)
+2025-02-14 06:08:01.754 10933-238 D/DoctorPark: 	at android.os.Looper.loop(Looper.java:362)
+2025-02-14 06:08:01.754 10933-238 D/DoctorPark: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+2025-02-14 06:08:01.755 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.755 10933-238 D/DoctorPark: "OkHttp ConnectionPool" Id=212 TIMED_WAITING
+2025-02-14 06:08:01.756 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Native Method)
+2025-02-14 06:08:01.756 10933-238 D/DoctorPark: 	at com.android.okhttp.ConnectionPool$1.run(ConnectionPool.java:106)
+2025-02-14 06:08:01.756 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2025-02-14 06:08:01.757 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.757 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.757 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.758 10933-238 D/DoctorPark: "pool-21-thread-2" Id=231 TIMED_WAITING
+2025-02-14 06:08:01.758 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.758 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.759 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-02-14 06:08:01.759 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-02-14 06:08:01.759 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.760 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.760 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.760 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.761 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.761 10933-238 D/DoctorPark: "pool-19-thread-1" Id=207 WAITING
+2025-02-14 06:08:01.761 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.761 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.762 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.762 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.762 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.763 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.763 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.763 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.764 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.764 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.764 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.764 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.765 10933-238 D/DoctorPark: "GmsDynamite" Id=187 WAITING
+2025-02-14 06:08:01.765 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Native Method)
+2025-02-14 06:08:01.765 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:386)
+2025-02-14 06:08:01.765 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:524)
+2025-02-14 06:08:01.766 10933-238 D/DoctorPark: 	at com.google.android.gms.dynamite.zza.run(com.google.android.gms:play-services-basement@@18.3.0:7)
+2025-02-14 06:08:01.766 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.766 10933-238 D/DoctorPark: "pool-14-thread-1" Id=190 WAITING
+2025-02-14 06:08:01.766 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.767 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.767 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.767 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.767 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.767 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.768 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.768 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.768 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.768 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.768 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.769 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.769 10933-238 D/DoctorPark: "Firebase Blocking Thread #3" Id=175 TIMED_WAITING
+2025-02-14 06:08:01.769 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.769 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.770 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-02-14 06:08:01.770 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-02-14 06:08:01.770 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.770 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.770 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.771 10933-238 D/DoctorPark: 	at h2.b.b(CustomThreadFactory.java:13)
+2025-02-14 06:08:01.771 10933-238 D/DoctorPark: 	at h2.b.a(CustomThreadFactory.java:1)
+2025-02-14 06:08:01.771 10933-238 D/DoctorPark: 	at h2.a.run(R8$$SyntheticClass:5)
+2025-02-14 06:08:01.771 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.772 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.772 10933-238 D/DoctorPark: "WM.task-1" Id=193 WAITING
+2025-02-14 06:08:01.772 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.772 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.772 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.773 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.773 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.773 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.773 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.773 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.773 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.774 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.774 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.774 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.774 10933-238 D/DoctorPark: "FinalizerDaemon" Id=153 WAITING
+2025-02-14 06:08:01.774 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Native Method)
+2025-02-14 06:08:01.775 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:386)
+2025-02-14 06:08:01.775 10933-238 D/DoctorPark: 	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:210)
+2025-02-14 06:08:01.775 10933-238 D/DoctorPark: 	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:231)
+2025-02-14 06:08:01.775 10933-238 D/DoctorPark: 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:309)
+2025-02-14 06:08:01.775 10933-238 D/DoctorPark: 	at java.lang.Daemons$Daemon.run(Daemons.java:145)
+2025-02-14 06:08:01.776 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.776 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.776 10933-238 D/DoctorPark: "AppHub_IO_ThreadPool#1" Id=199 RUNNABLE
+2025-02-14 06:08:01.776 10933-238 D/DoctorPark: 	at java.net.SocketInputStream.socketRead0(Native Method)
+2025-02-14 06:08:01.777 10933-238 D/DoctorPark: 	at java.net.SocketInputStream.socketRead(SocketInputStream.java:118)
+2025-02-14 06:08:01.777 10933-238 D/DoctorPark: 	at java.net.SocketInputStream.read(SocketInputStream.java:173)
+2025-02-14 06:08:01.777 10933-238 D/DoctorPark: 	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+2025-02-14 06:08:01.777 10933-238 D/DoctorPark: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readFromSocket(ConscryptEngineSocket.java:983)
+2025-02-14 06:08:01.777 10933-238 D/DoctorPark: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:947)
+2025-02-14 06:08:01.778 10933-238 D/DoctorPark: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.-$$Nest$mprocessDataFromSocket(Unknown Source:0)
+2025-02-14 06:08:01.778 10933-238 D/DoctorPark: 	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:236)
+2025-02-14 06:08:01.778 10933-238 D/DoctorPark: 	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:218)
+2025-02-14 06:08:01.778 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+2025-02-14 06:08:01.778 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+2025-02-14 06:08:01.779 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+2025-02-14 06:08:01.779 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+2025-02-14 06:08:01.779 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+2025-02-14 06:08:01.779 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+2025-02-14 06:08:01.779 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+2025-02-14 06:08:01.780 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+2025-02-14 06:08:01.780 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+2025-02-14 06:08:01.780 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+2025-02-14 06:08:01.780 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:248)
+2025-02-14 06:08:01.780 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:211)
+2025-02-14 06:08:01.781 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:30)
+2025-02-14 06:08:01.781 10933-238 D/DoctorPark: 	at java.lang.reflect.Method.invoke(Native Method)
+2025-02-14 06:08:01.781 10933-238 D/DoctorPark: 	at com.applovin.array.apphub.rfix.network.NoFirebaseHttpURLConnection.getInputStream(NoFirebaseHttpURLConnection.java:8)
+2025-02-14 06:08:01.781 10933-238 D/DoctorPark: 	at com.applovin.array.apphub.hotfix.BundleInfoProviderImpl.notifyBundleUpdate(BundleInfoProviderImpl.kt:81)
+2025-02-14 06:08:01.781 10933-238 D/DoctorPark: 	at com.applovin.array.apphub.hotfix.BundleInfoProviderImpl.onConfigChange(BundleInfoProviderImpl.kt:1)
+2025-02-14 06:08:01.782 10933-238 D/DoctorPark: 	at com.applovin.array.sdk.config.ConfigManager.lambda$onConfigChange$3(ConfigManager.java:1)
+2025-02-14 06:08:01.782 10933-238 D/DoctorPark: 	at com.applovin.array.sdk.config.ConfigManager.h(ConfigManager.java:1)
+2025-02-14 06:08:01.782 10933-238 D/DoctorPark: 	at com.applovin.array.sdk.config.e.run(R8$$SyntheticClass:3)
+2025-02-14 06:08:01.782 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2025-02-14 06:08:01.782 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.782 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.783 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.783 10933-238 D/DoctorPark: "DefaultDispatcher-worker-2" Id=222 TIMED_WAITING
+2025-02-14 06:08:01.783 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.783 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+2025-02-14 06:08:01.783 10933-238 D/DoctorPark: 	at m.aiv.run(:com.google.android.gms.dynamite_measurementdynamite@250434029@25.04.34 (190400-0):229)
+2025-02-14 06:08:01.784 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.784 10933-238 D/DoctorPark: "DefaultDispatcher-worker-1" Id=183 TIMED_WAITING
+2025-02-14 06:08:01.784 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.784 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+2025-02-14 06:08:01.784 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:24)
+2025-02-14 06:08:01.785 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:56)
+2025-02-14 06:08:01.785 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:61)
+2025-02-14 06:08:01.785 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:1)
+2025-02-14 06:08:01.785 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.786 10933-238 D/DoctorPark: "AppLovinArraySdk:postback:thread" Id=210 TIMED_WAITING
+2025-02-14 06:08:01.786 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.786 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.786 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.787 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+2025-02-14 06:08:01.787 10933-238 D/DoctorPark: 	at com.google.android.gms.common.BlockingServiceConnection.getServiceWithTimeout(com.google.android.gms:play-services-basement@@18.3.0:15)
+2025-02-14 06:08:01.787 10933-238 D/DoctorPark: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.zzb(com.google.android.gms:play-services-ads-identifier@@17.1.0:89)
+2025-02-14 06:08:01.787 10933-238 D/DoctorPark: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.getAdvertisingIdInfo(com.google.android.gms:play-services-ads-identifier@@17.1.0:17)
+2025-02-14 06:08:01.788 10933-238 D/DoctorPark: 	at com.applovin.array.common.util.GAIDUtil.getGAIDInfo(GAIDUtil.java:39)
+2025-02-14 06:08:01.788 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectAdvertisingInfo(DeviceDataCollector.java:2)
+2025-02-14 06:08:01.788 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectEphemeralDeviceData(DeviceDataCollector.java:227)
+2025-02-14 06:08:01.788 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectDeviceInfo(DeviceDataCollector.java:27)
+2025-02-14 06:08:01.788 10933-238 D/DoctorPark: 	at com.applovin.array.common.utils.DeviceInfoUtil.collectDeviceInfo(DeviceInfoUtil.java:5)
+2025-02-14 06:08:01.789 10933-238 D/DoctorPark: 	at com.applovin.array.common.network.RequestBodyExtension.buildTrackingDeviceInfo(RequestBodyExtension.java:7)
+2025-02-14 06:08:01.789 10933-238 D/DoctorPark: 	at com.applovin.array.sdk.track.TrackManager$2.run(TrackManager.java:31)
+2025-02-14 06:08:01.789 10933-238 D/DoctorPark: 	at com.applovin.array.sdk.task.TaskRunnable.run(TaskRunnable.java:3)
+2025-02-14 06:08:01.789 10933-238 D/DoctorPark: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+2025-02-14 06:08:01.789 10933-238 D/DoctorPark: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2025-02-14 06:08:01.790 10933-238 D/DoctorPark: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+2025-02-14 06:08:01.790 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2025-02-14 06:08:01.790 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.791 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.791 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.791 10933-238 D/DoctorPark: "binder:10933_1" Id=156 RUNNABLE
+2025-02-14 06:08:01.791 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.792 10933-238 D/DoctorPark: "CrAsyncTask #3" Id=220 TIMED_WAITING
+2025-02-14 06:08:01.792 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.792 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.793 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.793 10933-238 D/DoctorPark: 	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+2025-02-14 06:08:01.793 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.793 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.794 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.794 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.794 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.794 10933-238 D/DoctorPark: "Firebase Background Thread #0" Id=167 WAITING
+2025-02-14 06:08:01.794 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.795 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.795 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.795 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.795 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.796 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.796 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.796 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.796 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.796 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.797 10933-238 D/DoctorPark: 	at h2.b.b(CustomThreadFactory.java:13)
+2025-02-14 06:08:01.797 10933-238 D/DoctorPark: 	at h2.b.a(CustomThreadFactory.java:1)
+2025-02-14 06:08:01.797 10933-238 D/DoctorPark: 	at h2.a.run(R8$$SyntheticClass:5)
+2025-02-14 06:08:01.797 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.797 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.798 10933-238 D/DoctorPark: "ReferenceQueueDaemon" Id=152 WAITING
+2025-02-14 06:08:01.798 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Native Method)
+2025-02-14 06:08:01.798 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:386)
+2025-02-14 06:08:01.798 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:524)
+2025-02-14 06:08:01.798 10933-238 D/DoctorPark: 	at java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:239)
+2025-02-14 06:08:01.799 10933-238 D/DoctorPark: 	at java.lang.Daemons$Daemon.run(Daemons.java:145)
+2025-02-14 06:08:01.799 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.799 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.799 10933-238 D/DoctorPark: "DefaultDispatcher-worker-3" Id=188 TIMED_WAITING
+2025-02-14 06:08:01.799 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.800 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+2025-02-14 06:08:01.800 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:24)
+2025-02-14 06:08:01.800 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:56)
+2025-02-14 06:08:01.800 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:61)
+2025-02-14 06:08:01.800 10933-238 D/DoctorPark: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:1)
+2025-02-14 06:08:01.800 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.801 10933-238 D/DoctorPark: "pool-5-thread-1" Id=169 WAITING
+2025-02-14 06:08:01.801 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.801 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.801 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.801 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.802 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.802 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.802 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.802 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.802 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.803 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.803 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.803 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.803 10933-238 D/DoctorPark: "Timer-2" Id=217 WAITING
+2025-02-14 06:08:01.804 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Native Method)
+2025-02-14 06:08:01.804 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:386)
+2025-02-14 06:08:01.804 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:524)
+2025-02-14 06:08:01.805 10933-238 D/DoctorPark: 	at java.util.TimerThread.mainLoop(Timer.java:534)
+2025-02-14 06:08:01.805 10933-238 D/DoctorPark: 	at java.util.TimerThread.run(Timer.java:513)
+2025-02-14 06:08:01.805 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.806 10933-238 D/DoctorPark: "Timer-0" Id=191 WAITING
+2025-02-14 06:08:01.806 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Native Method)
+2025-02-14 06:08:01.806 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:386)
+2025-02-14 06:08:01.806 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:524)
+2025-02-14 06:08:01.807 10933-238 D/DoctorPark: 	at java.util.TimerThread.mainLoop(Timer.java:534)
+2025-02-14 06:08:01.807 10933-238 D/DoctorPark: 	at java.util.TimerThread.run(Timer.java:513)
+2025-02-14 06:08:01.807 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.808 10933-238 D/DoctorPark: "pool-18-thread-1" Id=205 RUNNABLE
+2025-02-14 06:08:01.808 10933-238 D/DoctorPark: 	at java.net.SocketInputStream.socketRead0(Native Method)
+2025-02-14 06:08:01.808 10933-238 D/DoctorPark: 	at java.net.SocketInputStream.socketRead(SocketInputStream.java:118)
+2025-02-14 06:08:01.808 10933-238 D/DoctorPark: 	at java.net.SocketInputStream.read(SocketInputStream.java:173)
+2025-02-14 06:08:01.808 10933-238 D/DoctorPark: 	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+2025-02-14 06:08:01.809 10933-238 D/DoctorPark: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readFromSocket(ConscryptEngineSocket.java:983)
+2025-02-14 06:08:01.809 10933-238 D/DoctorPark: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:947)
+2025-02-14 06:08:01.809 10933-238 D/DoctorPark: 	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.-$$Nest$mprocessDataFromSocket(Unknown Source:0)
+2025-02-14 06:08:01.810 10933-238 D/DoctorPark: 	at com.android.org.conscrypt.ConscryptEngineSocket.doHandshake(ConscryptEngineSocket.java:236)
+2025-02-14 06:08:01.810 10933-238 D/DoctorPark: 	at com.android.org.conscrypt.ConscryptEngineSocket.startHandshake(ConscryptEngineSocket.java:218)
+2025-02-14 06:08:01.810 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:196)
+2025-02-14 06:08:01.810 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+2025-02-14 06:08:01.811 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+2025-02-14 06:08:01.811 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+2025-02-14 06:08:01.811 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+2025-02-14 06:08:01.812 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+2025-02-14 06:08:01.812 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+2025-02-14 06:08:01.812 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+2025-02-14 06:08:01.812 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+2025-02-14 06:08:01.813 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+2025-02-14 06:08:01.813 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+2025-02-14 06:08:01.813 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:106)
+2025-02-14 06:08:01.813 10933-238 D/DoctorPark: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:30)
+2025-02-14 06:08:01.815 10933-238 D/DoctorPark: 	at s3.e.I(InstrURLConnectionBase.java:27)
+2025-02-14 06:08:01.815 10933-238 D/DoctorPark: 	at s3.d.getResponseCode(InstrHttpsURLConnection.java:3)
+2025-02-14 06:08:01.817 10933-238 D/DoctorPark: 	at com.applovin.array.analytics.network.HttpClient.doGet(SourceFile:45)
+2025-02-14 06:08:01.818 10933-238 D/DoctorPark: 	at com.applovin.array.analytics.core.processor.EventProcessor$updateRemoteConfigIfNeeded$1.invokeSuspend(SourceFile:56)
+2025-02-14 06:08:01.821 10933-238 D/DoctorPark: 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:11)
+2025-02-14 06:08:01.824 10933-238 D/DoctorPark: 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:129)
+2025-02-14 06:08:01.827 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2025-02-14 06:08:01.827 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.828 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.828 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.828 10933-238 D/DoctorPark: "WM.task-4" Id=237 WAITING
+2025-02-14 06:08:01.829 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.829 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.829 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.829 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.830 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.830 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.830 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.830 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.831 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.833 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.833 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.834 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.834 10933-238 D/DoctorPark: "AppLovinArraySdk:background:thread" Id=233 WAITING
+2025-02-14 06:08:01.835 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.835 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.836 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.836 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.836 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.837 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.837 10933-238 D/DoctorPark: 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1176)
+2025-02-14 06:08:01.837 10933-238 D/DoctorPark: 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:905)
+2025-02-14 06:08:01.838 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.838 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.838 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.839 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.845 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.845 10933-238 D/DoctorPark: "worker" Id=202 RUNNABLE
+2025-02-14 06:08:01.845 10933-238 D/DoctorPark: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+2025-02-14 06:08:01.846 10933-238 D/DoctorPark: 	at android.os.MessageQueue.next(MessageQueue.java:342)
+2025-02-14 06:08:01.846 10933-238 D/DoctorPark: 	at android.os.Looper.loopOnce(Looper.java:183)
+2025-02-14 06:08:01.846 10933-238 D/DoctorPark: 	at android.os.Looper.loop(Looper.java:362)
+2025-02-14 06:08:01.846 10933-238 D/DoctorPark: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+2025-02-14 06:08:01.847 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.848 10933-238 D/DoctorPark: "Firebase Background Thread #2" Id=170 WAITING
+2025-02-14 06:08:01.848 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.848 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.848 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.849 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.849 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.849 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.849 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.849 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.850 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.850 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.850 10933-238 D/DoctorPark: 	at h2.b.b(CustomThreadFactory.java:13)
+2025-02-14 06:08:01.850 10933-238 D/DoctorPark: 	at h2.b.a(CustomThreadFactory.java:1)
+2025-02-14 06:08:01.850 10933-238 D/DoctorPark: 	at h2.a.run(R8$$SyntheticClass:5)
+2025-02-14 06:08:01.851 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.851 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.851 10933-238 D/DoctorPark: "CrAsyncTask #2" Id=215 TIMED_WAITING
+2025-02-14 06:08:01.851 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.852 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.852 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.852 10933-238 D/DoctorPark: 	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+2025-02-14 06:08:01.852 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.853 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.853 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.853 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.853 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.854 10933-238 D/DoctorPark: "FinalizerWatchdogDaemon" Id=154 WAITING
+2025-02-14 06:08:01.854 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Native Method)
+2025-02-14 06:08:01.854 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:386)
+2025-02-14 06:08:01.854 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:524)
+2025-02-14 06:08:01.854 10933-238 D/DoctorPark: 	at java.lang.Daemons$FinalizerWatchdogDaemon.sleepUntilNeeded(Daemons.java:428)
+2025-02-14 06:08:01.854 10933-238 D/DoctorPark: 	at java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:408)
+2025-02-14 06:08:01.855 10933-238 D/DoctorPark: 	at java.lang.Daemons$Daemon.run(Daemons.java:145)
+2025-02-14 06:08:01.855 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.855 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.856 10933-238 D/DoctorPark: "CrAsyncTask #1" Id=213 TIMED_WAITING
+2025-02-14 06:08:01.856 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.856 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.856 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.857 10933-238 D/DoctorPark: 	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+2025-02-14 06:08:01.857 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.857 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.857 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.858 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.858 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.858 10933-238 D/DoctorPark: "Firebase Blocking Thread #0" Id=165 TIMED_WAITING
+2025-02-14 06:08:01.858 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.859 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.860 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-02-14 06:08:01.860 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-02-14 06:08:01.861 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.861 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.861 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.861 10933-238 D/DoctorPark: 	at h2.b.b(CustomThreadFactory.java:13)
+2025-02-14 06:08:01.862 10933-238 D/DoctorPark: 	at h2.b.a(CustomThreadFactory.java:1)
+2025-02-14 06:08:01.862 10933-238 D/DoctorPark: 	at h2.a.run(R8$$SyntheticClass:5)
+2025-02-14 06:08:01.862 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.863 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.863 10933-238 D/DoctorPark: "Firebase Blocking Thread #1" Id=173 TIMED_WAITING
+2025-02-14 06:08:01.864 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.869 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.869 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-02-14 06:08:01.870 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-02-14 06:08:01.870 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.870 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.871 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.871 10933-238 D/DoctorPark: 	at h2.b.b(CustomThreadFactory.java:13)
+2025-02-14 06:08:01.871 10933-238 D/DoctorPark: 	at h2.b.a(CustomThreadFactory.java:1)
+2025-02-14 06:08:01.872 10933-238 D/DoctorPark: 	at h2.a.run(R8$$SyntheticClass:5)
+2025-02-14 06:08:01.872 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.872 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.873 10933-238 D/DoctorPark: "log" Id=238 RUNNABLE
+2025-02-14 06:08:01.873 10933-238 D/DoctorPark: 	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+2025-02-14 06:08:01.873 10933-238 D/DoctorPark: 	at java.lang.Thread.getStackTrace(Thread.java:1841)
+2025-02-14 06:08:01.873 10933-238 D/DoctorPark: 	at java.lang.Thread.getAllStackTraces(Thread.java:1909)
+2025-02-14 06:08:01.873 10933-238 D/DoctorPark: 	at com.applovin.array.common.thread.ThreadDumpTool.dumpAllThreads(ThreadDumpTool.java:1)
+2025-02-14 06:08:01.874 10933-238 D/DoctorPark: 	at com.applovin.array.common.thread.LogMonitor$1.run(MainThreadMonitor.java:62)
+2025-02-14 06:08:01.874 10933-238 D/DoctorPark: 	at android.os.Handler.handleCallback(Handler.java:1000)
+2025-02-14 06:08:01.874 10933-238 D/DoctorPark: 	at android.os.Handler.dispatchMessage(Handler.java:104)
+2025-02-14 06:08:01.874 10933-238 D/DoctorPark: 	at android.os.Looper.loopOnce(Looper.java:242)
+2025-02-14 06:08:01.874 10933-238 D/DoctorPark: 	at android.os.Looper.loop(Looper.java:362)
+2025-02-14 06:08:01.875 10933-238 D/DoctorPark: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+2025-02-14 06:08:01.875 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.876 10933-238 D/DoctorPark: "Jit thread pool worker thread 0" Id=155 RUNNABLE
+2025-02-14 06:08:01.876 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.877 10933-238 D/DoctorPark: "pool-21-thread-1" Id=226 TIMED_WAITING
+2025-02-14 06:08:01.877 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Native Method)
+2025-02-14 06:08:01.878 10933-238 D/DoctorPark: 	at java.lang.Object.wait(Object.java:386)
+2025-02-14 06:08:01.878 10933-238 D/DoctorPark: 	at android.app.ActivityThread.acquireProvider(ActivityThread.java:7571)
+2025-02-14 06:08:01.879 10933-238 D/DoctorPark: 	at android.app.ContextImpl$ApplicationContentResolver.acquireUnstableProvider(ContextImpl.java:3844)
+2025-02-14 06:08:01.879 10933-238 D/DoctorPark: 	at android.content.ContentResolver.acquireUnstableProvider(ContentResolver.java:2542)
+2025-02-14 06:08:01.879 10933-238 D/DoctorPark: 	at android.content.ContentResolver.query(ContentResolver.java:1213)
+2025-02-14 06:08:01.880 10933-238 D/DoctorPark: 	at android.content.ContentResolver.query(ContentResolver.java:1161)
+2025-02-14 06:08:01.880 10933-238 D/DoctorPark: 	at android.content.ContentResolver.query(ContentResolver.java:1117)
+2025-02-14 06:08:01.880 10933-238 D/DoctorPark: 	at com.applovin.oem.am.device.tmobile.TMobileAdaptApi.getTempIdFromAdapter(TMobileAdaptApi.java:13)
+2025-02-14 06:08:01.880 10933-238 D/DoctorPark: 	at com.applovin.oem.am.device.tmobile.TMobileAdaptApi.retrieveTempId(TMobileAdaptApi.java:62)
+2025-02-14 06:08:01.880 10933-238 D/DoctorPark: 	at com.applovin.oem.am.device.tmobile.TMobileAdaptApi.checkAdaptStatus(TMobileAdaptApi.java:57)
+2025-02-14 06:08:01.881 10933-238 D/DoctorPark: 	at com.applovin.oem.am.ApplicationInitializer.lambda$executeAsyncTasks$0(ApplicationInitializer.java:12)
+2025-02-14 06:08:01.881 10933-238 D/DoctorPark: 	at com.applovin.oem.am.ApplicationInitializer.a(ApplicationInitializer.java:1)
+2025-02-14 06:08:01.881 10933-238 D/DoctorPark: 	at com.applovin.oem.am.b.run(R8$$SyntheticClass:3)
+2025-02-14 06:08:01.881 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2025-02-14 06:08:01.881 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.881 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.882 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.882 10933-238 D/DoctorPark: "AppLovinArraySdk:postback:thread" Id=228 TIMED_WAITING
+2025-02-14 06:08:01.882 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.882 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.882 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.882 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+2025-02-14 06:08:01.883 10933-238 D/DoctorPark: 	at com.google.android.gms.common.BlockingServiceConnection.getServiceWithTimeout(com.google.android.gms:play-services-basement@@18.3.0:15)
+2025-02-14 06:08:01.883 10933-238 D/DoctorPark: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.zzb(com.google.android.gms:play-services-ads-identifier@@17.1.0:89)
+2025-02-14 06:08:01.883 10933-238 D/DoctorPark: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.getAdvertisingIdInfo(com.google.android.gms:play-services-ads-identifier@@17.1.0:17)
+2025-02-14 06:08:01.883 10933-238 D/DoctorPark: 	at com.applovin.array.common.util.GAIDUtil.getGAIDInfo(GAIDUtil.java:39)
+2025-02-14 06:08:01.883 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectAdvertisingInfo(DeviceDataCollector.java:2)
+2025-02-14 06:08:01.884 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectEphemeralDeviceData(DeviceDataCollector.java:227)
+2025-02-14 06:08:01.884 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectDeviceInfo(DeviceDataCollector.java:27)
+2025-02-14 06:08:01.884 10933-238 D/DoctorPark: 	at com.applovin.array.common.utils.DeviceInfoUtil.collectDeviceInfo(DeviceInfoUtil.java:5)
+2025-02-14 06:08:01.884 10933-238 D/DoctorPark: 	at com.applovin.array.common.network.RequestBodyExtension.buildTrackingDeviceInfo(RequestBodyExtension.java:7)
+2025-02-14 06:08:01.884 10933-238 D/DoctorPark: 	at com.applovin.array.sdk.track.TrackManager$2.run(TrackManager.java:31)
+2025-02-14 06:08:01.885 10933-238 D/DoctorPark: 	at com.applovin.array.sdk.task.TaskRunnable.run(TaskRunnable.java:3)
+2025-02-14 06:08:01.885 10933-238 D/DoctorPark: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+2025-02-14 06:08:01.885 10933-238 D/DoctorPark: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2025-02-14 06:08:01.885 10933-238 D/DoctorPark: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+2025-02-14 06:08:01.885 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2025-02-14 06:08:01.886 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.886 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.886 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.886 10933-238 D/DoctorPark: "Firebase Blocking Thread #2" Id=174 TIMED_WAITING
+2025-02-14 06:08:01.886 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.887 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.887 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-02-14 06:08:01.887 10933-238 D/DoctorPark: 	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-02-14 06:08:01.887 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.887 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.888 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.888 10933-238 D/DoctorPark: 	at h2.b.b(CustomThreadFactory.java:13)
+2025-02-14 06:08:01.888 10933-238 D/DoctorPark: 	at h2.b.a(CustomThreadFactory.java:1)
+2025-02-14 06:08:01.888 10933-238 D/DoctorPark: 	at h2.a.run(R8$$SyntheticClass:5)
+2025-02-14 06:08:01.888 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.889 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.889 10933-238 D/DoctorPark: "Firebase Background Thread #1" Id=168 WAITING
+2025-02-14 06:08:01.889 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.889 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.889 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.890 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.890 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.890 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.890 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.891 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.891 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.891 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.892 10933-238 D/DoctorPark: 	at h2.b.b(CustomThreadFactory.java:13)
+2025-02-14 06:08:01.892 10933-238 D/DoctorPark: 	at h2.b.a(CustomThreadFactory.java:1)
+2025-02-14 06:08:01.892 10933-238 D/DoctorPark: 	at h2.a.run(R8$$SyntheticClass:5)
+2025-02-14 06:08:01.892 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.893 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.893 10933-238 D/DoctorPark: "cached-pool-1-thread-0" Id=192 TIMED_WAITING
+2025-02-14 06:08:01.893 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.893 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.894 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.894 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+2025-02-14 06:08:01.894 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+2025-02-14 06:08:01.894 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.895 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.895 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.895 10933-238 D/DoctorPark: 	at com.blankj.utilcode.util.m$c$a.run(ThreadUtils.java:1)
+2025-02-14 06:08:01.896 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.896 10933-238 D/DoctorPark: "binder:10933_3" Id=158 RUNNABLE
+2025-02-14 06:08:01.896 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.897 10933-238 D/DoctorPark: "AppLovinArraySdk:postback:thread" Id=236 WAITING
+2025-02-14 06:08:01.897 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.897 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.898 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.898 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.898 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.898 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.899 10933-238 D/DoctorPark: 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1176)
+2025-02-14 06:08:01.899 10933-238 D/DoctorPark: 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:905)
+2025-02-14 06:08:01.899 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.900 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.900 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.900 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.900 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.901 10933-238 D/DoctorPark: "awaitEvenIfOnMainThread task continuation executor1" Id=189 WAITING
+2025-02-14 06:08:01.901 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.901 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.901 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.902 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.902 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.902 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.903 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.903 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.903 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.904 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.904 10933-238 D/DoctorPark: 	at m2.y$a$a.a(ExecutorUtils.java:3)
+2025-02-14 06:08:01.904 10933-238 D/DoctorPark: 	at m2.d.run(BackgroundPriorityRunnable.java:6)
+2025-02-14 06:08:01.904 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.904 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.905 10933-238 D/DoctorPark: "Signal Catcher" Id=150 WAITING
+2025-02-14 06:08:01.905 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.905 10933-238 D/DoctorPark: "Chrome_IOThread" Id=244 RUNNABLE
+2025-02-14 06:08:01.905 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.906 10933-238 D/DoctorPark: "Firebase Background Thread #3" Id=180 WAITING
+2025-02-14 06:08:01.906 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.906 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.906 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.906 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.906 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.907 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.907 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.907 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.907 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.908 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.908 10933-238 D/DoctorPark: 	at h2.b.b(CustomThreadFactory.java:13)
+2025-02-14 06:08:01.908 10933-238 D/DoctorPark: 	at h2.b.a(CustomThreadFactory.java:1)
+2025-02-14 06:08:01.908 10933-238 D/DoctorPark: 	at h2.a.run(R8$$SyntheticClass:5)
+2025-02-14 06:08:01.908 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.909 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.909 10933-238 D/DoctorPark: "AppLovinArraySdk:postback:thread" Id=223 TIMED_WAITING
+2025-02-14 06:08:01.909 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.909 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.909 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.910 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+2025-02-14 06:08:01.910 10933-238 D/DoctorPark: 	at com.google.android.gms.common.BlockingServiceConnection.getServiceWithTimeout(com.google.android.gms:play-services-basement@@18.3.0:15)
+2025-02-14 06:08:01.910 10933-238 D/DoctorPark: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.zzb(com.google.android.gms:play-services-ads-identifier@@17.1.0:89)
+2025-02-14 06:08:01.910 10933-238 D/DoctorPark: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.getAdvertisingIdInfo(com.google.android.gms:play-services-ads-identifier@@17.1.0:17)
+2025-02-14 06:08:01.910 10933-238 D/DoctorPark: 	at com.applovin.array.common.util.GAIDUtil.getGAIDInfo(GAIDUtil.java:39)
+2025-02-14 06:08:01.911 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectAdvertisingInfo(DeviceDataCollector.java:2)
+2025-02-14 06:08:01.911 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectEphemeralDeviceData(DeviceDataCollector.java:227)
+2025-02-14 06:08:01.911 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectDeviceInfo(DeviceDataCollector.java:27)
+2025-02-14 06:08:01.911 10933-238 D/DoctorPark: 	at com.applovin.array.common.utils.DeviceInfoUtil.collectDeviceInfo(DeviceInfoUtil.java:5)
+2025-02-14 06:08:01.912 10933-238 D/DoctorPark: 	at com.applovin.array.common.network.RequestBodyExtension.buildTrackingDeviceInfo(RequestBodyExtension.java:7)
+2025-02-14 06:08:01.912 10933-238 D/DoctorPark: 	at com.applovin.array.sdk.track.TrackManager$2.run(TrackManager.java:31)
+2025-02-14 06:08:01.912 10933-238 D/DoctorPark: 	at com.applovin.array.sdk.task.TaskRunnable.run(TaskRunnable.java:3)
+2025-02-14 06:08:01.912 10933-238 D/DoctorPark: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+2025-02-14 06:08:01.912 10933-238 D/DoctorPark: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2025-02-14 06:08:01.912 10933-238 D/DoctorPark: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+2025-02-14 06:08:01.913 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2025-02-14 06:08:01.913 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.913 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.913 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.913 10933-238 D/DoctorPark: "AppLovinArraySdk:postback:thread" Id=225 TIMED_WAITING
+2025-02-14 06:08:01.914 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.914 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-02-14 06:08:01.914 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+2025-02-14 06:08:01.914 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+2025-02-14 06:08:01.914 10933-238 D/DoctorPark: 	at com.google.android.gms.common.BlockingServiceConnection.getServiceWithTimeout(com.google.android.gms:play-services-basement@@18.3.0:15)
+2025-02-14 06:08:01.915 10933-238 D/DoctorPark: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.zzb(com.google.android.gms:play-services-ads-identifier@@17.1.0:89)
+2025-02-14 06:08:01.915 10933-238 D/DoctorPark: 	at com.google.android.gms.ads.identifier.AdvertisingIdClient.getAdvertisingIdInfo(com.google.android.gms:play-services-ads-identifier@@17.1.0:17)
+2025-02-14 06:08:01.915 10933-238 D/DoctorPark: 	at com.applovin.array.common.util.GAIDUtil.getGAIDInfo(GAIDUtil.java:39)
+2025-02-14 06:08:01.916 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectAdvertisingInfo(DeviceDataCollector.java:2)
+2025-02-14 06:08:01.916 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectEphemeralDeviceData(DeviceDataCollector.java:227)
+2025-02-14 06:08:01.916 10933-238 D/DoctorPark: 	at com.applovin.array.common.provider.DeviceDataCollector.collectDeviceInfo(DeviceDataCollector.java:27)
+2025-02-14 06:08:01.916 10933-238 D/DoctorPark: 	at com.applovin.array.common.utils.DeviceInfoUtil.collectDeviceInfo(DeviceInfoUtil.java:5)
+2025-02-14 06:08:01.916 10933-238 D/DoctorPark: 	at com.applovin.array.common.network.RequestBodyExtension.buildTrackingDeviceInfo(RequestBodyExtension.java:7)
+2025-02-14 06:08:01.917 10933-238 D/DoctorPark: 	at com.applovin.array.sdk.track.TrackManager$2.run(TrackManager.java:31)
+2025-02-14 06:08:01.917 10933-238 D/DoctorPark: 	at com.applovin.array.sdk.task.TaskRunnable.run(TaskRunnable.java:3)
+2025-02-14 06:08:01.917 10933-238 D/DoctorPark: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+2025-02-14 06:08:01.922 10933-238 D/DoctorPark: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2025-02-14 06:08:01.923 10933-238 D/DoctorPark: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:307)
+2025-02-14 06:08:01.923 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2025-02-14 06:08:01.924 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.925 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.925 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.926 10933-238 D/DoctorPark: "WM.task-2" Id=196 WAITING
+2025-02-14 06:08:01.927 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.927 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.928 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.928 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.929 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.929 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.929 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.930 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.930 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.930 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.931 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.931 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.932 10933-238 D/DoctorPark: "com.google.firebase.crashlytics.startup1" Id=184 WAITING
+2025-02-14 06:08:01.932 10933-238 D/DoctorPark: 	at jdk.internal.misc.Unsafe.park(Native Method)
+2025-02-14 06:08:01.932 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-02-14 06:08:01.933 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-02-14 06:08:01.933 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+2025-02-14 06:08:01.933 10933-238 D/DoctorPark: 	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+2025-02-14 06:08:01.933 10933-238 D/DoctorPark: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+2025-02-14 06:08:01.933 10933-238 D/DoctorPark: 	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-02-14 06:08:01.934 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+2025-02-14 06:08:01.934 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+2025-02-14 06:08:01.934 10933-238 D/DoctorPark: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+2025-02-14 06:08:01.934 10933-238 D/DoctorPark: 	at m2.y$a$a.a(ExecutorUtils.java:3)
+2025-02-14 06:08:01.935 10933-238 D/DoctorPark: 	at m2.d.run(BackgroundPriorityRunnable.java:6)
+2025-02-14 06:08:01.935 10933-238 D/DoctorPark: 	at java.lang.Thread.run(Thread.java:1012)
+2025-02-14 06:08:01.935 10933-238 D/DoctorPark: 
+
+2025-02-14 06:08:01.987 10933-2 W/DoctorPark: slow task cost=1427ms
+2025-02-14 06:08:02.006 10933-223 D/AppLovinRandomIdRepository: getApplovinRandomId: uJiYGNssYkzkROKT|1739542082004|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:02.007 10933-223 D/: getValue: false
+2025-02-14 06:08:02.007 10933-223 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:02.010 10933-223 I/AppHub: Task request endpoint:https://api.tracking.al-array.com/array/tracker/1.0/events
+2025-02-14 06:08:02.013 10933-228 D/AppLovinRandomIdRepository: getApplovinRandomId: lBQcdVZWYESpm88H|1739542082012|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:02.014 10933-228 D/: getValue: false
+2025-02-14 06:08:02.014 10933-228 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:02.018 10933-228 I/AppHub: Task request endpoint:https://api.tracking.al-array.com/array/tracker/1.0/events
+2025-02-14 06:08:02.028 10933-210 D/AppLovinRandomIdRepository: getApplovinRandomId: iz0C2dc1lIGJf7V5|1739542082026|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:02.029 10933-210 D/: getValue: false
+2025-02-14 06:08:02.029 10933-210 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:02.033 10933-236 I/AppHub: Task request endpoint:https://api.tracking.al-array.com/array/tracker/1.0/events
+2025-02-14 06:08:02.036 10933-225 D/AppLovinRandomIdRepository: getApplovinRandomId: KwkKk1aB2sAym2D9|1739542082035|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:02.036 10933-225 D/: getValue: false
+2025-02-14 06:08:02.037 10933-225 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:02.042 10933-225 I/AppHub: Task request endpoint:https://api.tracking.al-array.com/array/tracker/1.0/events
+2025-02-14 06:08:02.353 10933-258 D/HeaderInterceptor: intercept() called with: chain = [okhttp3.internal.http.RealInterceptorChain@91b749d]
+2025-02-14 06:08:02.358 10933-258 D/GlobalParamsInterceptor: intercept called with: request.url = [https://api.al-array.com/array/appCenter/1.0/appConfig], trace: 212249874
+2025-02-14 06:08:02.359 10933-258 D/GlobalParamsInterceptor: intercept called request.body = okhttp3.RequestBody$Companion$toRequestBody$1@1b9e6e0 class: class okhttp3.RequestBody$Companion$toRequestBody$1
+2025-02-14 06:08:02.365 10933-258 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:02.374 10933-258 D/GlobalParamsInterceptor: intercept oldPostJson: {"android_api_level":34,"app_info":{"m_class_loader":{"packages":{"com.android.org.conscrypt":{"impl_title":"Unknown","impl_vendor":"Unknown","impl_version":"0.0","pkg_name":"com.android.org.conscrypt","spec_title":"Unknown","spec_vendor":"Unknown","spec_version":"0.0"},"android.security.net.config":{"impl_title":"Unknown","impl_vendor":"Unknown","impl_version":"0.0","pkg_name":"android.security.net.config","spec_title":"Unknown","spec_vendor":"Unknown","spec_version":"0.0"}},"proxy_cache":{}},"m_flags":1536,"m_lazy_values":0,"m_map":{"package_name":"com.applovin.array.apphub.tmobile","app_version":"1.21.1","install_location":-1,"first_install_time_ms":1738046857572,"ia_v2":1738046856685,"app_version_code":1021001,"first_install":false,"last_update_time_ms":1738046857572},"m_owns_lazy_values":false,"m_parcelled_by_native":false},"architectures":["arm64-v8a","armeabi-v7a","armeabi"],"client_package_name":"com.applovin.array.apphub.tmobile","client_version_code":1021001,"client_version_name":"1.21.1","device_info":{"m_class_loader":{"packages":{"com.android.org.conscrypt":{"impl_title":"Unknown","impl_vendor":"Unknown","impl_version":"0.0","pkg_name":"com.android.org.conscrypt","spec_title":"Unknown","spec_vendor":"Unknown","spec_version":"0.0"},"android.security.net.config":{"impl_title":"Unknown","impl_vendor":"Unknown","impl_version":"0.0","pkg_name":"android.security.net.config","spec_title":"Unknown","spec_vendor":"Unknown","spec_version":"0.0"}},"proxy_cache":{}},"m_flags":1536,"m_lazy_values":0,"m_map":{"supported_abis":"arm64-v8a,armeabi-v7a,armeabi","network_restricted":false,"mute_switch":2,"carrier_canonical_id":1949,"locale":"en_US","opt_in":false,"build_display":"U1UFNS34.41-98-3-11","volume":100,"build_fingerprint":"motorola/fogo_g/fogo:14/U1UFNS34.41-98-3-11/17710-d1a62:user/release-keys","apphub_version":"1.21.1","applovin_random_id":"2|7172021617015968229|l/0P8ZnCvyzPOgw7HBb2tWf2NqI1zD7d1JlKs9UFE1kUkmPyfnFQ0CI93YJnw2BfWr6G8fD7hs23\nFWCQrpFuZTImqTX4kNUXmbDMq+Zca2mGnVq5RC2nn4EaDjyhOmhYf65H85LNCjgWqJ3P22k1akXQ\nblTEYIZ3vxzoXQzDhFO7Mnhk5yjWL87qJqaz1z6GFYSNZWjlHY3RHa8MKuniio9KRnjh9v+075xM\nNz7jdArUF8NGfnsQKWxrbuADqBIo9Yyx/zzB7NILuprplrb/vnzezvXKW4hhzrSsf+7uzIQRMqvi\nyrxKwc5AXsWvPvWRT7dnLkpjuKBjospIk35jHg==\n","apphub_version_code":1021001,"is_tablet":false,"revision":"fogo","us_kbps":5502,"api_level":34,"af":1032,"fm":1364328448,"fs":19329163264,"gy":true,"kb":"en_US","lm":false,"os":"14","sb":36,"so":"receiver,speaker","tm":3641233408,"ua":"","acm":21,"act":2,"adr":false,"dnt":false,"lmt":150994944,"lpm":0,"rat":0,"sim":false,"sua":"Dalvik/2.1.0 (Linux; U; Android 14; moto g 5G - 2024 Build/U1UFNS34.41-98-3-11)","tds":118581342208,"adns":1.4875001,"font":1.0,"gdpr":"","idfa":"f5722b24-dedc-47fa-a8df-10ca1ad1abe1","tags":"release-keys","type":"user","user":"hudsoncm","xdpi":268.941,"ydpi":269.373,"device_id":"7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37","adnsd":238,"board":"fogo","brand":"motorola","bt_ms":1739541057351,"model":"moto g 5G - 2024","hardware":"qcom","tz_offset":-8.0,"carrier":"Metro by T-Mobile","country_code_source":"SimCountryIso","brand_name":"motorola","data_collection_enable":true,"country_code":"US","is_ignoring_battery_optimizations":false,"network":"5g","origin_device_type":"new_device","ds_kbps":5502},"m_owns_lazy_values":false,"m_parcelled_by_native":false},"device_make":"motorola","device_model":"moto g 5G - 2024","device_revision":"fogo","eid":"2|7172021617015968229|YnOwUB5V23y3p5EO1V1VI67i1V85pV51l/jWsTABZozhW0ZMbLQeFFh0mj+zx2IpFcS6LK7pcoc7\n5g1/MPvCAzK4a098VXQs64JosnpaWQQtD7o3yPzJyyzBP4Hl3ObXYEr5K2RzMXQZWWKn4njsGBq7\nGEMVLpTs1ykuYWqfMr0LAz6QcUtnlRgs74GJJbJ/RtoHf7P9G9lmaJLujB6qE5bUrr7ka53jSpF7\nLw59Zfk2r/LGU6V52Yx/cooyaHhZwNY2QmZz44xNrWyjvmQbrkjI7JBSYO7qPHeXPuq9TSzBNnPx\nfJeZvYkKmLiREwUqzk2M+WXTt74WObLsLFRKEw==\n","eid_type":1,"ext_properties":[{"property":"config_test","value":""}],"locale":"en_US","mccmnc":"310260","os_version":"14","request_id":"2b81e66a-6267-4cda-90d2-6a89be6fd898","screen_dpi":238,"device_id":"7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37"}
+ newPostJson: {"android_api_level":34,"app_info":{"m_class_loader":{"packages":{"com.android.org.conscrypt":{"impl_title":"Unknown","impl_vendor":"Unknown","impl_version":"0.0","pkg_name":"com.android.org.conscrypt","spec_title":"Unknown","spec_vendor":"Unknown","spec_version":"0.0"},"android.security.net.config":{"impl_title":"Unknown","impl_vendor":"Unknown","impl_version":"0.0","pkg_name":"android.security.net.config","spec_title":"Unknown","spec_vendor":"Unknown","spec_version":"0.0"}},"proxy_cache":{}},"m_flags":1536,"m_lazy_values":0,"m_map":{"package_name":"com.applovin.array.apphub.tmobile","app_version":"1.21.1","install_location":-1,"first_install_time_ms":1738046857572,"ia_v2":1738046856685,"app_version_code":1021001,"first_install":false,"last_update_time_ms":1738046857572},"m_owns_lazy_values":false,"m_parcelled_by_native":false},"architectures":["arm64-v8a","armeabi-v7a","armeabi"],"client_package_name":"com.applovin.array.apphub.tmobile","client_version_code":1021001,"client_version_name":"1.21.1","device_info":{"m_class_loader":{"packages":{"com.android.org.conscrypt":{"impl_title":"Unknown","impl_vendor":"Unknown","impl_version":"0.0","pkg_name":"com.android.org.conscrypt","spec_title":"Unknown","spec_vendor":"Unknown","spec_version":"0.0"},"android.security.net.config":{"impl_title":"Unknown","impl_vendor":"Unknown","impl_version":"0.0","pkg_name":"android.security.net.config","spec_title":"Unknown","spec_vendor":"Unknown","spec_version":"0.0"}},"proxy_cache":{}},"m_flags":1536,"m_lazy_values":0,"m_map":{"supported_abis":"arm64-v8a,armeabi-v7a,armeabi","network_restricted":false,"mute_switch":2,"carrier_canonical_id":1949,"locale":"en_US","opt_in":false,"build_display":"U1UFNS34.41-98-3-11","volume":100,"build_fingerprint":"motorola/fogo_g/fogo:14/U1UFNS34.41-98-3-11/17710-d1a62:user/release-keys","apphub_version":"1.21.1","applovin_random_id":"2|7172021617015968229|l/0P8ZnCvyzPOgw7HBb2tWf2NqI1zD7d1JlKs9UFE1kUkmPyfnFQ0CI93YJnw2BfWr6G8fD7hs23\nFWCQrpFuZTImqTX4kNUXmbDMq+Zca2mGnVq5RC2nn4EaDjyhOmhYf65H85LNCjgWqJ3P22k1akXQ\nblTEYIZ3vxzoXQzDhFO7Mnhk5yjWL87qJqaz1z6GFYSNZWjlHY3RHa8MKuniio9KRnjh9v+075xM\nNz7jdArUF8NGfnsQKWxrbuADqBIo9Yyx/zzB7NILuprplrb/vnzezvXKW4hhzrSsf+7uzIQRMqvi\nyrxKwc5AXsWvPvWRT7dnLkpjuKBjospIk35jHg==\n","apphub_version_code":1021001,"is_tablet":false,"revision":"fogo","us_kbps":5502,"api_level":34,"af":1032,"fm":1364328448,"fs":19329163264,"gy":true,"kb":"en_US","lm":false,"os":"14","sb":36,"so":"receiver,speaker","tm":3641233408,"ua":"","acm":21,"act":2,"adr":false,"dnt":false,"lmt":150994944,"lpm":0,"rat":0,"sim":false,"sua":"Dalvik/2.1.0 (Linux; U; Android 14; moto g 5G - 2024 Build/U1UFNS34.41-98-3-11)","tds":118581342208,"adns":1.4875001,"font":1.0,"gdpr":"","idfa":"f5722b24-dedc-47fa-a8df-10ca1ad1abe1","tags":"release-keys","type":"user","user":"hudsoncm","xdpi":268.941,"ydpi":269.373,"device_id":"7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37","adnsd":238,"board":"fogo","brand":"motorola","bt_ms":1739541057351,"model":"moto g 5G - 2024","hardware":"qcom","tz_offset":-8.0,"carrier":"Metro by T-Mobile","country_code_source":"SimCountryIso","brand_name":"motorola","data_collection_enable":true,"country_code":"US","is_ignoring_battery_optimizations":false,"network":"5g","origin_device_type":"new_device","ds_kbps":5502},"m_owns_lazy_values":false,"m_parcelled_by_native":false},"device_make":"motorola","device_model":"moto g 5G - 2024","device_revision":"fogo","eid":"2|7172021617015968229|YnOwUB5V23y3p5EO1V1VI67i1V85pV51l/jWsTABZozhW0ZMbLQeFFh0mj+zx2IpFcS6LK7pcoc7\n5g1/MPvCAzK4a098VXQs64JosnpaWQQtD7o3yPzJyyzBP4Hl3ObXYEr5K2RzMXQZWWKn4njsGBq7\nGEMVLpTs1ykuYWqfMr0LAz6QcUtnlRgs74GJJbJ/RtoHf7P9G9lmaJLujB6qE5bUrr7ka53jSpF7\nLw59Zfk2r/LGU6V52Yx/cooyaHhZwNY2QmZz44xNrWyjvmQbrkjI7JBSYO7qPHeXPuq9TSzBNnPx\nfJeZvYkKmLiREwUqzk2M+WXTt74WObLsLFRKEw==\n","eid_type":1,"ext_properties":[{"property":"config_test","value":""}],"locale":"en_US","mccmnc":"310260","os_version":"14","request_id":"2b81e66a-6267-4cda-90d2-6a89be6fd898","screen_dpi":238,"device_id":"7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37"}
+2025-02-14 06:08:02.730 10933-226 D/TrackManager: track() called with: endpoint = [https://api.tracking.al-array.com/array/tracker/1.0/events], eventName = [adapt_tempid_retrieved], parameters = [{adapt_trace_id=94125f29-2ebc-42c8-b7ae-391b06f724dc, retry=0}]
+2025-02-14 06:08:02.730 10933-226 D/: getValue: false
+2025-02-14 06:08:02.731 10933-226 D/TrackManager: track >> trafficContext: for eventName=adapt_tempid_retrieved, true, false
+2025-02-14 06:08:02.731 10933-226 D/TMobileAdapterApi: get new tempId=MmE2ZWI5ZDgtNzBlMy00MzExLTg1Y2YtNzJiYjJhZjYxOGY4
+2025-02-14 06:08:02.731 10933-226 D/ApplicationInitializer: cleanDownloadingNotification() called
+2025-02-14 06:08:02.732 10933-226 D/DeliveryAppResumer: loadAllLoadingApps() called loadingDeliveryList:0
+2025-02-14 06:08:02.740 10933-210 D/AppLovinRandomIdRepository: getApplovinRandomId: zjLYz9skp9V4zJDz|1739542082739|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:02.740 10933-210 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:02.741 10933-210 D/: getValue: false
+2025-02-14 06:08:02.741 10933-210 D/: getValue: 
+2025-02-14 06:08:02.741 10933-210 D/: getValue: false
+2025-02-14 06:08:02.754 10933-210 D/AppLovinRandomIdRepository: getApplovinRandomId: uhmGz9JB0ywVK7uO|1739542082753|c6e03924-444e-456c-a4c5-744920658962|sp
+2025-02-14 06:08:02.755 10933-210 D/: getValue: false
+2025-02-14 06:08:02.755 10933-210 D/AppLovinRandomIdRepository: getDeviceId: 7db5ad2a-04eb-43b9-ba0d-d7b88c70ca37
+2025-02-14 06:08:02.760 10933-210 I/AppHub: Task request endpoint:https://api.tracking.al-array.com/array/tracker/1.0/events
